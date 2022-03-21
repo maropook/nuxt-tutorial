@@ -1,5 +1,6 @@
 <template>
   <div>
+    <nav>ここにナビゲーションバーを入れる</nav>
     <nav-bar />
     <Nuxt />
   </div>
