@@ -8,6 +8,9 @@
 
 <script>
 export default {
+  mounted () {
+    this.$hello("mounted");
+  },
   methods: {
     addCount () {
       this.$store.dispatch("count/increment");
